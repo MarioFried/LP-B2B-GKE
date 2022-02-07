@@ -1,0 +1,11 @@
+credentials        = "/var/lib/jenkins/terraform-gkecluster-keyfile.json"
+project_id         = "mythical-pod-339011"
+region             = "us-west1"
+zones              = ["us-west1-a", "us-west1-b", "us-west1-c"]
+name               = "demo-cluster"
+machine_type       = "e2-medium"
+min_count          = 1
+max_count          = 2
+disk_size_gb       = 100
+service_account    = "sa-demo-test@mythical-pod-339011.iam.gserviceaccount.com"
+initial_node_count = 1
